@@ -249,8 +249,16 @@ li {
   top: 301px;
   background-color: #f4f5f7;
   margin-bottom: 32px;
+  padding-top: 16px;
+  padding-left: 10px;
 }
-.icon {
+.our-product .image .add-cart {
+  opacity: 0;
+}
+.our-product .image .add-cart:hover {
+  opacity: 70%;
+}
+.our-product .icon {
   width: 4px;
   height: 4px;
   top: 24px;
